@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+}
+#ad {
+    display: block;
+    overflow: hidden;
+    width: 728px;
+    height: 90px;
+    color: #363636;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#banner {
+    position: relative;
+    display: block;
+    width: 728px;
+    height: 90px;
+    background-color: white;
+}
+.logo {
+    font-size: 12px;
+    position: absolute;
+    top: 7px;
+    left: 550px;
+}
+.headline {
+    font-size: 25px;
+    color: #353066;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 700;
+    top: 11px;
+    left: 9px;
+    line-height: 120%;
+}
+.subheadline {
+    color: #6CAD45;
+    font-size: 14px;
+    position: absolute;
+    top:8px;
+    padding-left: 300px;
+    padding-right: 10px;
+    line-height: 140%;
+    text-align: left;
+}
+.arrowDown {
+    font-size: 30px;
+    color: #353066;
+    position: absolute;
+    top: 50px;
+    left: 9px;
+    transform: rotate(-90deg);
+}
+.example {
+    color: #353066;
+    font-size: 14px;
+    position: absolute;
+    top: 58px;
+    left: 50px;
+}
+form {
+    float:left;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+label {
+    position:absolute;
+    font-size: 15px;
+}
+.parentheses {
+    font-size: 28px;
+    position: absolute;
+    top: 50px;
+    left: 230px;
+}
+.dash {
+    font-size: 40px;
+    position: absolute;
+    top: 44px;
+    left: 445px;
+}
+.text_input {
+    background: white;
+    border: #000 2px solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 0 5px;
+    position:absolute;
+    width: 77px;
+    height: 29px;
+    top: 54px;
+    text-align: center;
+}
+.text_input#area {
+    left:245px;
+}
+.text_input#area.highlight {
+    box-shadow: 0 0 5px rgba(108, 159, 241, 1);
+    padding: 3px 0px 3px 3px;
+    border: 2px solid rgba(108, 159, 241, 1);
+    outline-offset: -2px;
+}
+.text_input#firstN {
+    left:350px;
+}
+.text_input#lastN {
+    width: 85px;
+    height: 29px;
+    left: 476px;
+}
+.buttons {
+    position: absolute;
+    top: 54px;
+    left: 583px;
+    cursor: pointer;
+}
+.button {
+    width: 127px;
+    height: 29px;
+    background-color: #6CAD45;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 700;
+}
+button {
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
+}
+button:hover,
+button:active {
+    background-color: #5b9c35;
+}
